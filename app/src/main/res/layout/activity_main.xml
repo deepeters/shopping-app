@@ -67,7 +67,7 @@
         android:layout_marginBottom="60dp"
         android:fontFamily="sans-serif-medium"
         android:text="Shopping App"
-        android:textColor="#070707"
+        android:textColor="#F1AE11"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/welcomeTxt"
