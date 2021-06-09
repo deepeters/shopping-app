@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
         android:layout_marginBottom="452dp"
-        android:text="Product Cost £: "
+        android:text="Product Cost Ksh:"
         android:textColor="@android:color/white"
         android:textSize="16sp"
 
@@ -173,7 +173,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
         android:layout_marginBottom="48dp"
-        android:text="Product Cost £:"
+        android:text="Product Cost Ksh:"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
