@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".ApplicationLayer.ClothingActivityTwo">
+
+    <TextView
+        android:id="@+id/clothingThirdProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/long_sleeve_top_women_s"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingThirdProductImg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/clothingThirdProductImg"
+        android:layout_width="225dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/clothingThirdProductCost"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/clothing_women_top" />
+
+    <TextView
+        android:id="@+id/clothingThirdProductCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="8dp"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingThirdProductSizeLbl"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/clothingThirdProductColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="406dp"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/clothingThirdProductColourMenu"
+        android:layout_width="74dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="406dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothingThirdProductColourLbl" />
+
+    <TextView
+        android:id="@+id/clothingThirdProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="406dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothingThirdProductColourMenu" />
+
+    <Spinner
+        android:id="@+id/clothingThirdProductSizeMenu"
+        android:layout_width="58dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="406dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothingThirdProductSizeLbl" />
+
+    <TextView
+        android:id="@+id/clothingThirdProductQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="406dp"
+        android:text="@string/quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothingThirdProductSizeMenu" />
+
+    <Spinner
+        android:id="@+id/clothingThirdProductQuantityMenu"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothingThirdProductQuantityLbl" />
+
+    <Button
+        android:id="@+id/clothingThirdProductAddToBasketBtn"
+        android:layout_width="439dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/clothingFourthProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Longline Hoodie Women's"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductImg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/clothingFourthProductImg"
+        android:layout_width="215dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="110dp"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductCost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/women_hoodie_clothing" />
+
+    <TextView
+        android:id="@+id/clothingFourthProductCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="96dp"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/clothingFourthProductColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="11dp"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/clothingFourthProductColourMenu"
+        android:layout_width="74dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/clothingFourthProductColourLbl" />
+
+    <TextView
+        android:id="@+id/clothingFourthProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="11dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/clothingFourthProductColourMenu" />
+
+    <Spinner
+        android:id="@+id/clothingFourthProductSizeMenu"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/clothingFourthProductSizeLbl" />
+
+    <TextView
+        android:id="@+id/clothingFourthProductQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/clothingFourthProductSizeMenu" />
+
+    <Spinner
+        android:id="@+id/clothingFourthProductQuantityMenu"
+        android:layout_width="78dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/clothingFourthProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/clothingFourthProductQuantityLbl" />
+
+    <Button
+        android:id="@+id/clothingFourthProductAddToBasketBtn"
+        android:layout_width="443dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="monthPrompt">Please Choose A Month</string>
+    <string name="januaryMonth">January</string>
+    <string name="februaryMonth">February</string>
+    <string name="marchMonth">March</string>
+    <string name="aprilMonth">April</string>
+    <string name="mayMonth">May</string>
+    <string name="juneMonth">June</string>
+    <string name="julyMonth">July</string>
+
+    <string name="augustMonth">August</string>
+    <string name="septemberMonth">September</string>
+    <string name="octoberMonth">October</string>
+    <string name="novemberMonth">November</string>
+    <string name="decemberMonth">December</string>
+</resources>

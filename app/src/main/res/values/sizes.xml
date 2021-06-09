@@ -1,0 +1,26 @@
+<resources>
+    <string name="sizePrompt">Choose Size Please</string>
+    <string name="sixtyFourGB">64GB</string>
+    <string name="oneTwoEight">128GB</string>
+    <string name="twoFiveSix">256GB</string>
+    <string name="fiveTwelve">512GB</string>
+
+    <string name="fourtyMM">40MM</string>
+    <string name="fourtyTwoMM">42MM</string>
+
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <string name="smallSize">S</string>
+    <string name="mediumSize">M</string>
+    <string name="largeSize">L</string>
+    <string name="extraLargeSize">XL</string>
+
+    <string name="thirtyFourRegular">34</string>
+    <string name="thirtyEightRegular">38</string>
+    <string name="forty">40</string>
+    <string name="fortyTwo">42</string>
+
+
+</resources>

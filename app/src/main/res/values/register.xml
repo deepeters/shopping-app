@@ -1,0 +1,39 @@
+<resources>
+    <string name="usernameError">Username Error</string>
+    <string name="usernameErrorMsg">Re-Enter Username Please</string>
+    <string name="empty">Cant be left empty</string>
+    <string name="usernameLength">Username must contain digits and length must not be bigger than 20 characters</string>
+    <string name="usernameReEnter">Re-Enter Username Please</string>
+    <string name="usernameRegex">Username should not contain regex character</string>
+    <string name="usernameRegexWarning">Username Regex Warning</string>
+
+
+    <string name="emailError">E-mail Error</string>
+    <string name="emailEnterAgain">Re-enter E-mail Address Please</string>
+    <string name="reEnterEmail">Re-Enter E-mail</string>
+    <string name="emailEmpty">E-mail Field Cannot Be Left Empty</string>
+    <string name="emailLength">E-mail Cant Have More Than 25 Characters</string>
+    <string name="emailAtSymbol">E-mail should contain an @ symbol</string>
+    <string name="emailRegexWarning">E-mail Regex Warning</string>
+
+    <string name="passwordWarning">Password Warning</string>
+    <string name="passwordError">Password Error</string>
+    <string name="passwordReEnter">Re-Enter Password Please</string>
+    <string name="passwordRegexEmpty">Password cannot be left empty and must contain special characters</string>
+    <string name="passwordUppercase">Password Must Start With Uppercase Character</string>
+
+    <string name="termsAndConditionsError">Terms and Conditions Box Not Checked</string>
+    <string name="tickTermsAndConditions">Please Tick Terms and Conditions Box</string>
+    <string name="termsAndConditionsMust">Terms and Conditions Box must be checked.</string>
+
+    <string name="creatingAccount">Creating Account...</string>
+    <string name="finish">Are you sure you are finished browsing?</string>
+
+    <string name="basket_username">username</string>
+    <string name="basket_email_address">email_address</string>
+    <string name="basket_password">password</string>
+
+    <string name="collection_name">user_data_two</string>
+
+    <string name="loggingIn">Logging In</string>
+</resources>

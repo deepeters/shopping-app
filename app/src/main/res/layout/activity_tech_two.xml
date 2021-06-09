@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/woods"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationLayer.TechActivityTwo">
+
+    <TextView
+        android:id="@+id/thirdProductTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="688dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Airpods Pro"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/thirdProductImg"
+        android:layout_width="272dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/airpodspro" />
+
+    <TextView
+        android:id="@+id/thirdProductCostTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="476dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Product Cost £: "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/thirdColourDropDownMenu"
+        android:layout_width="62dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdColourLbl" />
+
+    <Spinner
+        android:id="@+id/thirdQuantityDropDownMenu"
+        android:layout_width="79dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdQuantityLbl" />
+
+    <Button
+        android:id="@+id/thirdAddToBasketBtn"
+        android:layout_width="449dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-medium"
+        android:text="Add To Basket"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdProductSizeDropDown" />
+
+    <TextView
+        android:id="@+id/fourthProductTitleLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="332dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Samsung Galaxy S10"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fourthProductImg"
+        android:layout_width="194dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthProductImgCost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/galaxys" />
+
+    <TextView
+        android:id="@+id/fourthProductImgCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthProductQuantityLbl"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/fourthProductColourLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/fourthProductDropDownMenu"
+        android:layout_width="67dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductColourLabel" />
+
+    <TextView
+        android:id="@+id/fourthProductQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductSizeLbl" />
+
+    <Spinner
+        android:id="@+id/fourthProductQuantityDropDown"
+        android:layout_width="75dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductQuantityLbl" />
+
+    <Button
+        android:id="@+id/fourthAddToBasketButton"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-medium"
+        android:text="Add To Basket"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="11dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdColourDropDownMenu" />
+
+    <Spinner
+        android:id="@+id/thirdProductSizeDropDown"
+        android:layout_width="84dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdProductSizeLbl" />
+
+    <TextView
+        android:id="@+id/fourthProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductDropDownMenu" />
+
+    <Spinner
+        android:id="@+id/fourthProductSizeMenu"
+        android:layout_width="67dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthAddToBasketButton"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductSizeLbl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

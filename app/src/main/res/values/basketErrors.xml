@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="colourMenuError">Error</string>
+    <string name="errorMsg">You must select a valid colour, quantity or size before adding to basket</string>
+</resources>

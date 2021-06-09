@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="paymentErrorTitle">Payment Error</string>
+    <string name="cardEmpty">Credit Card Field Cannot Be Left Empty</string>
+
+    <string name="paymentErrorMsg">Re-Enter Card Number Field Please</string>
+    <string name="cardLength">Card Number Must Not Exceed 16 Digits. Re-Enter</string>
+
+    <string name="expiryDateError">You Must Choose A Month And Year</string>
+    <string name="flushPaymentField">""</string>
+    <string name="paymentChoose">You must choose a payment option.</string>
+
+    <string name="cardDigitsOnly">Card Number Must Only Contain Digits</string>
+    <string name="cardCVVError">CVV Field Cannot Be Left Empty. Re-Enter Please</string>
+
+    <string name="CVVLength">Card CVV Should Not Exceed 3 Digits</string>
+
+
+    <string name="cardHolderNameEmpty">CardHolder Name Cannot Be Left Empty</string>
+    <string name="cardHolderRegex">CardHolder Name Field Cannot Contain Regex Characters.</string>
+    <string name="cardHolderDigits">CardHolder Name Field Cannot Contain Digits</string>
+
+</resources>

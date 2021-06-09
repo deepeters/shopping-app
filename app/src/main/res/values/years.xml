@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="yearsPrompt">Please choose a Year</string>
+    <string name="firstYear">2021</string>
+    <string name="secondYear">2022</string>
+
+    <string name="thirdYear">2023</string>
+    <string name="fourthYear">2024</string>
+    <string name="fifthYear">2025</string>
+    <string name="sixthYear">2026</string>
+    <string name="seventhYear">2027</string>
+    <string name="eighthYear">2028</string>
+
+</resources>

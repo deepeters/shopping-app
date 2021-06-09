@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shoppingapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.weshopapplication">
 
-    <application
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application xmlns:tools="http://schemas.android.com/tools"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ShoppingApp">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity android:name=".ApplicationLayer.PaypalPaymentGateway"></activity>
+        <activity android:name=".ApplicationLayer.DIYActivityTwo" />
+        <activity android:name=".ApplicationLayer.ClothingActivityTwo" />
+        <activity android:name=".ApplicationLayer.PaymentActivity" />
+        <activity android:name=".ApplicationLayer.CheckComplaints" />
+        <activity android:name=".ApplicationLayer.SubmitComplaint" />
+        <activity android:name=".ApplicationLayer.ContactUsActivity" />
+        <activity android:name=".ApplicationLayer.SportsAndOutdoorsActivityTwo" />
+        <activity android:name=".ApplicationLayer.TechActivityTwo" />
+        <activity android:name=".ApplicationLayer.BasketActivity" />
+        <activity android:name=".ApplicationLayer.LoginActivity" />
+        <activity android:name=".ApplicationLayer.DIYActivity" />
+        <activity android:name=".ApplicationLayer.ClothingCategory" />
+        <activity android:name=".ApplicationLayer.TechActivity" />
+        <activity android:name=".ApplicationLayer.SportsAndOutdoorsActivity" />
+        <activity android:name=".ApplicationLayer.RegisterActivity" />
+        <activity android:name=".ApplicationLayer.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

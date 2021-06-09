@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="brown">Brown</string>
+    <string name="navyBlue">Navy Blue</string>
+    <string name="darkRed">Dark Red</string>
+    <string name="checkeredBlack">Checkered Black</string>
+
+    <string name="salmonPink">Salmon Pink</string>
+    <string name="cityGray">City Gray</string>
+
+</resources>

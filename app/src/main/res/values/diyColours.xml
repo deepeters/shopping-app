@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="gallantGray">Gallant Grey</string>
+    <string name="darkBlack">Dark Black</string>
+    <string name="strawberryRed">Strawberry Red</string>
+    <string name="gardenGreen">Garden Green</string>
+
+
+    <string name="wallpaperGray">Gray</string>
+    <string name="wallpaperMaroon">Maroon</string>
+    <string name="wallpaperPink">Pink</string>
+    <string name="wallpaperBlue">Blue</string>
+
+</resources>

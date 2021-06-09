@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".ApplicationLayer.SportsAndOutdoorsActivityTwo">
+
+    <TextView
+        android:id="@+id/sportsOutdoorsTxtTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="696dp"
+        android:text="@string/adidas_predator_women_s_boots"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/thirdSportsOutdoorsImg"
+        android:layout_width="211dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdSportsOutdoorsCostLbl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/womenboots" />
+
+    <TextView
+        android:id="@+id/thirdSportsOutdoorsCostLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="436dp"
+        android:text="@string/product_cost"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdSportsOutdoorsColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="404dp"
+        android:text="@string/color"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdSportsOutdoorsColourMenu"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/thirdSportsOutdoorsColourMenu"
+        android:layout_width="77dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdSportsOutdoorsSizeLbl"
+        app:layout_constraintStart_toEndOf="@+id/thirdSportsOutdoorsColourLbl" />
+
+    <TextView
+        android:id="@+id/thirdSportsOutdoorsSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="404dp"
+        android:text="@string/size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/thirdSportsOutdoorsColourMenu" />
+
+    <Spinner
+        android:id="@+id/thirdSportsOutdoorsSizeMenu"
+        android:layout_width="77dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdSportsOutdoorsQuantityLbl"
+        app:layout_constraintStart_toEndOf="@+id/thirdSportsOutdoorsSizeLbl" />
+
+    <TextView
+        android:id="@+id/thirdSportsOutdoorsQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/quantity"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/thirdSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/thirdSportsOutdoorsSizeMenu" />
+
+    <Spinner
+        android:id="@+id/thirdSportsOutdoorsQuantityMenu"
+        android:layout_width="74dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/thirdSportsOutdoorsQuantityLbl" />
+
+    <Button
+        android:id="@+id/thirdSportsOutdoorsAddToBasketBtn"
+        android:layout_width="442dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="354dp"
+        android:background="@drawable/button_round"
+        android:text="@string/add_to_basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/fourthSportsOutdoorsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:text="@string/adidas_jacket_women_s"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsImg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fourthSportsOutdoorsImg"
+        android:layout_width="227dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsCostLbl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/adidaswomenjacket" />
+
+    <TextView
+        android:id="@+id/fourthSportsOutdoorsCostLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/product_cost"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsSizeLbl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/fourthSportsOutdoorsColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/color"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintEnd_toStartOf="@+id/fourthSportsOutdoorsColourMenu"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/fourthSportsOutdoorsColourMenu"
+        android:layout_width="79dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintEnd_toStartOf="@+id/fourthSportsOutdoorsSizeLbl"
+        app:layout_constraintStart_toEndOf="@+id/fourthSportsOutdoorsColourLbl" />
+
+    <TextView
+        android:id="@+id/fourthSportsOutdoorsSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/fourthSportsOutdoorsColourMenu" />
+
+    <Spinner
+        android:id="@+id/fourthSportsOutdoorsSizeMenu"
+        android:layout_width="76dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/fourthSportsOutdoorsSizeLbl" />
+
+    <TextView
+        android:id="@+id/fourthSportsOutdoorsQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/quantity"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintEnd_toStartOf="@+id/fourthSportsOutdoorsQuantityMenu"
+        app:layout_constraintStart_toEndOf="@+id/fourthSportsOutdoorsSizeMenu" />
+
+    <Spinner
+        android:id="@+id/fourthSportsOutdoorsQuantityMenu"
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fourthSportsOutdoorsQuantityLbl" />
+
+    <Button
+        android:id="@+id/fourthSportsOutdoorsAddToBasketBtn"
+        android:layout_width="443dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_round"
+        android:text="@string/add_to_basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

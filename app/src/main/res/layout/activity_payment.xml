@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".ApplicationLayer.PaymentActivity">
+
+    <TextView
+        android:id="@+id/paymentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="680dp"
+        android:text="@string/payment_below"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/creditCardNumberField"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="36dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/cardCVVField"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cardCVVField"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="332dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Card CVV"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cardNameField"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Cardholder's Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/monthLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="156dp"
+        android:text="Month"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/monthMenu"
+        android:layout_width="77dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/monthLbl" />
+
+    <TextView
+        android:id="@+id/yearLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="156dp"
+        android:text="Year"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/monthMenu" />
+
+    <Spinner
+        android:id="@+id/yearMenu"
+        android:layout_width="76dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/yearLbl" />
+
+    <Button
+        android:id="@+id/confirmPaymentBtn"
+        android:layout_width="414dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button_round"
+        android:text="Confirm Payment"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/paymentGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/creditCardNumberField"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/visaOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="120dp"
+            android:buttonTint="@color/white"
+            android:onClick="checkButton"
+            android:text="@string/visa"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/masterCardOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:onClick="checkButton"
+            android:text="@string/mastercard"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/paypalBtn"
+        android:layout_width="168dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/button_round"
+        android:text="Pay With Paypal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/creditCardNumberField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/emailAddressPaymentField"
+        android:layout_width="217dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="E-mail Address"
+        android:paddingStart="15dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/creditCardNumberField"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="24dp"
+        android:text="Expiry Date"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/yearLbl"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

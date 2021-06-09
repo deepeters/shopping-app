@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".ApplicationLayer.SportsAndOutdoorsActivity">
+
+    <TextView
+        android:id="@+id/firstSportsOutdoorTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="696dp"
+        android:text="Nike Air Max 270 Men"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/firstSportsOutdoorImg"
+        android:layout_width="337dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nikemax" />
+
+    <TextView
+        android:id="@+id/firstSportsOutdoorCostLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="452dp"
+        android:text="Product Cost £: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/firstSportsColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="412dp"
+        android:text="Colour"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/firstSportsOutdoorColourMenu"
+        android:layout_width="66dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstSportsColourLbl" />
+
+    <TextView
+        android:id="@+id/firstSportsOutdoorQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="412dp"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstSportsOutdoorColourMenu" />
+
+    <Spinner
+        android:id="@+id/firstSportsOutdoorQuantityMenu"
+        android:layout_width="58dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstSportsOutdoorQuantityLbl" />
+
+    <TextView
+        android:id="@+id/firstSportsOutdoorSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="412dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstSportsOutdoorQuantityMenu" />
+
+    <Spinner
+        android:id="@+id/firstSportsOutdoorSizeMenu"
+        android:layout_width="72dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstSportsOutdoorSizeLbl" />
+
+    <Button
+        android:id="@+id/firstAddToBasketBtn"
+        android:layout_width="449dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="348dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/secondSportsOutdoorsProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="320dp"
+        android:text="Air Jordan T-Shirt Men"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/secondSportsOutdoorsImg"
+        android:layout_width="269dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/airjordan" />
+
+    <Button
+        android:id="@+id/secondAddToBasketBtn"
+        android:layout_width="449dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sportsNextPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sportsNextPage"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="301dp"
+        android:background="@android:color/black"
+        android:text="Next Page"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/secondSportsOutdoorProductCostLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="48dp"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/secondSportsOutdoorsColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="8dp"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/secondSportsOutdoorsColourMenu"
+        android:layout_width="71dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/secondSportsOutdoorsColourLbl" />
+
+    <TextView
+        android:id="@+id/secondsSportsOutdoorQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="8dp"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/secondSportsOutdoorsColourMenu" />
+
+    <Spinner
+        android:id="@+id/secondSportsOutdoorsQuantityMenu"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/secondsSportsOutdoorQuantityLbl" />
+
+    <TextView
+        android:id="@+id/secondSportsOutdoorsSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="9dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/secondSportsOutdoorsQuantityMenu" />
+
+    <Spinner
+        android:id="@+id/secondSportsOutdoorsSizeMenu"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/secondAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/secondSportsOutdoorsSizeLbl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

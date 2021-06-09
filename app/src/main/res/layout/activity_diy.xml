@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".ApplicationLayer.DIYActivity">
+
+    <TextView
+        android:id="@+id/diyFirstProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:text="Dulux Paint"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductImg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/diyFirstProductImg"
+        android:layout_width="285dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductCostTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/diy_paint_bq" />
+
+    <TextView
+        android:id="@+id/diyFirstProductCostTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="4dp"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductSizeLbl"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/diyFirstProductColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="12dp"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/diyFirstProductColourMenu"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diyFirstProductColourLbl" />
+
+    <TextView
+        android:id="@+id/diyFirstProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diyFirstProductColourMenu" />
+
+    <Spinner
+        android:id="@+id/diyFirstProductSizeMenu"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diyFirstProductSizeLbl" />
+
+    <TextView
+        android:id="@+id/diyFirstProductQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diyFirstProductSizeMenu" />
+
+    <Spinner
+        android:id="@+id/diyFirstProductQuantityMenu"
+        android:layout_width="67dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/diyFirstProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diyFirstProductQuantityLbl" />
+
+    <Button
+        android:id="@+id/diyFirstProductAddToBasketBtn"
+        android:layout_width="425dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/diySecondProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="360dp"
+        android:text="Diall Paint Brush 3 Pack"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/diySecondProductImg"
+        android:layout_width="284dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/diy_paint_brush" />
+
+    <TextView
+        android:id="@+id/diySecondProductCostLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="20dp"
+        android:text="Product Cost £:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diySecondProductSizeLbl"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/diySecondProductColourLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="104dp"
+        android:text="Colour"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/diySecondProductColourMenu"
+        android:layout_width="76dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diySecondProductColourLbl" />
+
+    <TextView
+        android:id="@+id/diySecondProductSizeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="104dp"
+        android:text="Size"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diySecondProductColourMenu" />
+
+    <Spinner
+        android:id="@+id/diySecondProductSizeMenu"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diySecondProductSizeLbl" />
+
+    <TextView
+        android:id="@+id/diySecondProductQuantityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="104dp"
+        android:text="Quantity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diySecondProductSizeMenu" />
+
+    <Spinner
+        android:id="@+id/diySecondProductQuantityMenu"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/diySecondProductAddToBasketBtn"
+        app:layout_constraintStart_toEndOf="@+id/diySecondProductQuantityLbl" />
+
+    <Button
+        android:id="@+id/diySecondProductAddToBasketBtn"
+        android:layout_width="425dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_round"
+        android:text="Add To Basket"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diyNextPageBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/diyNextPageBtn"
+        android:layout_width="99dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="312dp"
+        android:background="@android:color/black"
+        android:text="Next Page"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

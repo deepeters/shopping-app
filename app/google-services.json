@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "163066778678",
+    "project_id": "shoppingapp-792b9",
+    "storage_bucket": "shoppingapp-792b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163066778678:android:ad380e725ac52c0bbd3497",
+        "android_client_info": {
+          "package_name": "com.example.weshopapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163066778678-0p8jitgn855gciqc7inv55lns67100em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weshopapplication",
+            "certificate_hash": "437c0e81e1ee11817b9b8976f1bcd77a3c855709"
+          }
+        },
+        {
+          "client_id": "163066778678-tq0flv8npmj8rkgoh8ddqj0c7nho3noq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOH6524C5Iw4FU77_pqDRYAmC2Bza3zts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163066778678-tq0flv8npmj8rkgoh8ddqj0c7nho3noq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

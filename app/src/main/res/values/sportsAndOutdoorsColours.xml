@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="colourPrompt">Please Choose A Colour</string>
+    <string name="colourYellow">Yellow</string>
+    <string name="colourBlack">Black</string>
+    <string name="colourRed">Red</string>
+    <string name="colourBlue">Sky Blue</string>
+
+</resources>

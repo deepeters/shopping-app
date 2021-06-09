@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sportsAndOutdoorsCategory"
+        android:title="@string/sports_and_outdoors"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/techCategory"
+        android:title="@string/tech"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clothingCategory"
+        android:title="@string/clothing"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/diyCategory"
+        android:title="@string/diy"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
