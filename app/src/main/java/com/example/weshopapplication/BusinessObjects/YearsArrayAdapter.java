@@ -8,11 +8,7 @@ import android.widget.ArrayAdapter;
 import androidx.annotation.NonNull;
 import java.util.ArrayList;
 
-// Author: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Activity: Allows the years to be stored in a drop-down menu.
-// Date of Last Modified: 4/2/2020
-// Any Bugs?: Currently none. Unit tested recently. 25/25 Tests completed
+
 
 public class YearsArrayAdapter extends ArrayAdapter<Years> {
     private Context context; // The current context

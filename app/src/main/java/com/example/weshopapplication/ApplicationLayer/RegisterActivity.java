@@ -39,11 +39,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
-// Author: Sabin Constantin Lungu.
-// Matriculation Number: 40397517.
-// Date of Last Modification: 08/03/2020
-// Purpose of Activity: To allow users to register an account and write their registration data to a Firebase database.
-// Any errors? Pending testing..
 
 public class RegisterActivity extends AppCompatActivity { // Register class
     private static final String CHANNEL_ID = "register_channel"; // The channel to send the notification on

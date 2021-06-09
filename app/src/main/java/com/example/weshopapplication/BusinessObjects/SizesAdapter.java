@@ -9,10 +9,7 @@ import androidx.annotation.NonNull;
 import com.example.weshopapplication.ApplicationLayer.TechActivity;
 import java.util.ArrayList;
 
-// Author: Sabin Constantin Lungu
-// Purpose of Activity: Allows the sizes to be stored in a drop-down menu.
-// Date of Last Modified: 4/2/2020
-// Any Bugs?: Currently none. Unit tested recently. 11/11 Tests completed
+
 
 public class SizesAdapter extends ArrayAdapter<TechActivity.Size> {
     private Context context;

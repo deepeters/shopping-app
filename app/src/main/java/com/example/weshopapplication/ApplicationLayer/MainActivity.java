@@ -14,10 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.weshopapplication.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-// Author of Application: Sabin Constantin Lungu
-// Purpose of Class: Main Activity implements homepage functionality of application.
-// Last modified: 26 January 2020
-// Any Bugs?: N/A
 
 public class MainActivity extends AppCompatActivity {
     // Encapsulated variables

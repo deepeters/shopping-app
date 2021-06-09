@@ -27,10 +27,6 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-// Author of Application: Sabin Constantin Lungu
-// Purpose of Application / Class: Contains the Java code for the DIY activity 2.
-// Date of Last Modification : 04/03/2020
-// Any Errors? None
 
 public class DIYActivityTwo extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private int current_product_id = 1; // The current product id to add to basket (will be incremented)

@@ -26,11 +26,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.regex.Pattern;
 
-// Author of Application: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Activity: To login a registered user
-// Date of last modified: 08/03/2020
-// Any Bugs?: N/A
 
 public class LoginActivity extends AppCompatActivity {
     private TextView loginText; // The login text at the top of the application
@@ -233,7 +228,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     Toast.makeText(LoginActivity.this, "You are logged in as " + emailInput, Toast.LENGTH_LONG).show();
                     transitionToHomepage(); // Take user to homepage
-                    setVisibilityOfLogout();
+                    //setVisibilityOfLogout();
                 }
 
                 else if (!task.isSuccessful()) { // If the task is not successful, i.e the credentials do not match

@@ -9,10 +9,7 @@ import androidx.annotation.NonNull;
 import com.example.weshopapplication.ApplicationLayer.TechActivity;
 import java.util.ArrayList;
 
-// Author of Application / Class: Sabin Constantin Lungu
-// Purpose of Application / Class: A helper class that allows objects of type colour to be stored in the drop-down menu in the product categories.
-// Date of Last Modification: 08/03/2020
-// Any Errors? None
+
 
 public class ColourArrayAdapter extends ArrayAdapter<TechActivity.Colours> { // The colours array adapter class inherits from the array adapter base class
     private Context context;

@@ -2,10 +2,7 @@ package com.example.weshopapplication.BusinessObjects;
 
 import java.io.Serializable;
 
-// Author of Application: Sabin Constantin Lungu 40397517
-// Purpose of Application: To store data regarding the products when they are added to basket, the data will get displayed in a list view
-// Date of Last Modification: 07/02/2020
-// Any Errors? No
+
 
 public class Products implements Serializable { // Products Class
     private int productID; // The Product ID

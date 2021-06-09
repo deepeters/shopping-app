@@ -9,11 +9,7 @@ import android.database.sqlite.SQLiteStatement;
 import java.util.ArrayList;
 import java.util.List;
 
-// Author of Application: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Application: To create a SQLite database to store the data filled in the contact us form activity
-// Date of Last Modification: 15/02/2020
-// Any Bugs? No. 25/25 Tests Passed.
+
 
 public class ContactUsDatabase {
 

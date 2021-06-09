@@ -32,11 +32,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
-// Author of Application/Class: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Application/Class: Allows Customers to pay for the products chosen
-// Date of Last Modification: 22/02/2020
-// Any Bugs? None
 
 public class PaymentActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private RadioGroup paymentGroup;

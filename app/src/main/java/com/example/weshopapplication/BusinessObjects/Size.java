@@ -1,9 +1,6 @@
 package com.example.weshopapplication.BusinessObjects;
 
-// Author of Business Layer Class: Sabin Constantin Lungu.
-// Purpose of Business Layer Class: To store the size data.
-// Matriculation Number: 40397517
-// Date of Last Modification: 08/03/2020
+
 
 public class Size { // Size Class
     private int index; // The Size Index for the drop-down menu.

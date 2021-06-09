@@ -13,10 +13,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-// Author of Application/Class: Sabin Constantin Lungu
-// Purpose of Application/Class: This class uses the JavaMail API that automatically sends an e-mail to the user after they have purchased a specific product(s)
-// Date of Last Modification: 19/02/2020
-// Any Bugs? None
+
 
 public class SendPaymentInvoiceAPI extends AsyncTask<Void, Void, Void> { // The class inherits from an Asynchronous Task Class. with 3 parameters initially Void
     private Context context; // The context.

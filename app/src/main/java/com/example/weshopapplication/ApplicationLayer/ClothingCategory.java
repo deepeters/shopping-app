@@ -28,10 +28,6 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-// Author of Application: Sabin Constantin Lungu
-// Purpose of Application: Displays the clothing category products.
-// Date of Last Modification: 02/03/2020
-// Any Errors? None Yet.
 
 public class ClothingCategory extends AppCompatActivity implements AdapterView.OnItemSelectedListener { // Class implements the item selected listener methods from the adapter view class.
     private int current_product_id = 1; // The current product ID

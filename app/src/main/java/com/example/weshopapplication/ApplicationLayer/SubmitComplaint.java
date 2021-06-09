@@ -9,10 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.weshopapplication.DataLayer.ContactUsDatabase;
 import com.example.weshopapplication.R;
 
-// Author of Application: Sabin Constantin Lungu
-// Purpose of Class: Allows customers to Submit a complaint through the Contact Us Form if they are experiencing any issues with the app.
-// Date of Last Modification: 22/02/2020
-// Any Bugs? None.
+
 
 public class SubmitComplaint extends AppCompatActivity implements View.OnClickListener {
     private ContactUsDatabase databaseManipulator;

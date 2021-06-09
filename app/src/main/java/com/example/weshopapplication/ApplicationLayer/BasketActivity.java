@@ -22,11 +22,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-// Author of Application: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Application & Class: To store the products added to the basket in a List View.
-// Date of Last Modification: 13/02/2020.
-// Any Errors: N/A
 
 public class BasketActivity extends AppCompatActivity implements View.OnClickListener { // The basket activity inherits from the AppCompat Activity and implements the methods for the view on click listener.
     private Button placeOrderBtn; // Variable for the place order button

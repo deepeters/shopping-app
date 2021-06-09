@@ -11,10 +11,6 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.List;
 
-// Author of Application Layer Class: Sabin Constantin Lungu
-// Purpose of Application Layer Class: Allows users to view the complaints made. Useful for maintenance.
-// Date of Last Modification: 13/02/2020.
-// Any Errors: None.
 
 public class CheckComplaints extends ListActivity { // Class Check Complaints inherits from the List Activity class
     public int idToModify; // The ID to modify.

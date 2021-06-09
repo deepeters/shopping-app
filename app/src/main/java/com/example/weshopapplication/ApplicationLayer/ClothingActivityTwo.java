@@ -27,10 +27,6 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-// Author of Application/Class: Sabin Constantin Lungu
-// Purpose of Application Layer Class: To show customers the clothing category two activity.
-// Date of Last Modification: 02/03/2020
-// Any Errors? None
 
 public class ClothingActivityTwo extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private int current_product_id = 1; // The current product id.

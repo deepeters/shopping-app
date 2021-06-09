@@ -8,10 +8,7 @@ import android.widget.ArrayAdapter;
 import androidx.annotation.NonNull;
 import java.util.ArrayList;
 
-// Author of Application / Class: Sabin Constantin Lungu
-// Purpose of Application / Class: A helper class that allows objects of type Month to be stored in the drop-down menu in the product categories.
-// Date of Last Modification: 08/03/2020
-// Any Errors? None
+
 
 public class MonthsArrayAdapter extends ArrayAdapter<Months> { // Array adapter class to allow the months to be stored as instances which will be added to an array list of months
     private Context context; // The context

@@ -5,11 +5,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
 
-// Author of Data Layer / Class: Sabin Constantin Lungu
-// Matriculation Number: 40397517
-// Purpose of Data Layer Class: The Payment Database Data Layer class is used to store the payment data of customers in a MYSQLite Database.
-// Date of Last Modification: 08/03/2020
-// Any Errors? None. 25/25 Tests Passed.
 
 public class PaymentDatabase {
     private static final String DATABASE_NAME = "payments.db"; // The Payment Database to create.

@@ -26,10 +26,7 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-// Author: Sabin Constantin Lungu
-// Purpose of Activity: Shows the products in stock for the tech activity along with the colour to choose from and quantities.
-// Date of Last Modified: 4/2/2020
-// Any Bugs?: Currently none. Unit tested recently. 11/11 Tests completed
+
 
 public class TechActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     public int current_product_id = 1; // The current product ID

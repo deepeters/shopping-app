@@ -1,9 +1,6 @@
 package com.example.weshopapplication.BusinessObjects;
 
-// Author of Application: Sabin Constantin Lungu
-// Purpose of Business Layer Class: To store the data for the Years that will be used in the Payment Activity
-// Date of Last Modification: 08/03/2020
-// Any Bugs? None
+
 
 public class Years { // Years class
     private String year; // Year variable

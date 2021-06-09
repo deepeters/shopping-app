@@ -28,10 +28,7 @@ import com.example.weshopapplication.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-// Author of Application & Class: Sabin Constantin Lungu
-// Purpose of Class: Stores the code needed to implement the Sports and Outdoors Activity 1.
-// Date of Last Modification: 13/02/2020
-// Any Errors? Currently None.
+
 
 public class SportsAndOutdoorsActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private int current_product_id = 1;
