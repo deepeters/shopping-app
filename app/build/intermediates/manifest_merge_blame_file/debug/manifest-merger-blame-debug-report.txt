@@ -1,0 +1,406 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weshopapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:6:5-79
+11-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+12-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:7:5-85
+12-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:7:22-82
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:8:5-81
+13-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:9:5-79
+14-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:10:5-85
+15-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:10:22-82
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:11:5-67
+16-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:12:5-80
+17-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:13:5-81
+18-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:14:5-65
+19-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:14:22-62
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+20-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+21-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+23
+24    <application
+24-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:16:5-51:19
+25        android:allowBackup="true"
+25-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:17:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/c7ef75b126c8b6bfe64df1480ebbdd5a/core-1.5.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:18:9-43
+30        android:label="@string/app_name"
+30-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:19:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:20:9-54
+32        android:supportsRtl="true"
+32-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:21:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:22:9-40
+35        <activity android:name="com.example.weshopapplication.ApplicationLayer.PaypalPaymentGateway" />
+35-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:24:9-84
+35-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:24:19-72
+36        <activity android:name="com.example.weshopapplication.ApplicationLayer.DIYActivityTwo" />
+36-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:25:9-69
+36-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:25:19-66
+37        <activity android:name="com.example.weshopapplication.ApplicationLayer.ClothingActivityTwo" />
+37-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:26:9-74
+37-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:26:19-71
+38        <activity android:name="com.example.weshopapplication.ApplicationLayer.PaymentActivity" />
+38-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:27:9-70
+38-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:27:19-67
+39        <activity android:name="com.example.weshopapplication.ApplicationLayer.CheckComplaints" />
+39-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:28:9-70
+39-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:28:19-67
+40        <activity android:name="com.example.weshopapplication.ApplicationLayer.SubmitComplaint" />
+40-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:29:9-70
+40-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:29:19-67
+41        <activity android:name="com.example.weshopapplication.ApplicationLayer.ContactUsActivity" />
+41-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:30:9-72
+41-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:30:19-69
+42        <activity android:name="com.example.weshopapplication.ApplicationLayer.SportsAndOutdoorsActivityTwo" />
+42-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:31:9-83
+42-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:31:19-80
+43        <activity android:name="com.example.weshopapplication.ApplicationLayer.TechActivityTwo" />
+43-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:32:9-70
+43-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:32:19-67
+44        <activity android:name="com.example.weshopapplication.ApplicationLayer.BasketActivity" />
+44-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:33:9-69
+44-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:33:19-66
+45        <activity android:name="com.example.weshopapplication.ApplicationLayer.LoginActivity" />
+45-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:34:9-68
+45-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:34:19-65
+46        <activity android:name="com.example.weshopapplication.ApplicationLayer.DIYActivity" />
+46-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:35:9-66
+46-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:35:19-63
+47        <activity android:name="com.example.weshopapplication.ApplicationLayer.ClothingCategory" />
+47-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:36:9-71
+47-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:36:19-68
+48        <activity android:name="com.example.weshopapplication.ApplicationLayer.TechActivity" />
+48-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:37:9-67
+48-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:37:19-64
+49        <activity android:name="com.example.weshopapplication.ApplicationLayer.SportsAndOutdoorsActivity" />
+49-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:38:9-80
+49-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:38:19-77
+50        <activity android:name="com.example.weshopapplication.ApplicationLayer.RegisterActivity" />
+50-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:39:9-71
+50-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:39:19-68
+51        <activity android:name="com.example.weshopapplication.ApplicationLayer.MainActivity" >
+51-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:40:9-46:20
+51-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:40:19-64
+52            <intent-filter>
+52-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:41:13-45:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:42:17-69
+53-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:42:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:44:17-77
+55-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:44:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <meta-data
+59-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:48:9-50:57
+60            android:name="preloaded_fonts"
+60-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:49:13-43
+61            android:resource="@array/preloaded_fonts" />
+61-->/home/deepeters/AndroidStudioProjects/ShoppingApp/app/src/main/AndroidManifest.xml:50:13-54
+62
+63        <activity
+63-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+64            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+64-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+65            android:excludeFromRecents="true"
+65-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+66            android:exported="true"
+66-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+67            android:launchMode="singleTask"
+67-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+68-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+69            <intent-filter>
+69-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+70-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+72-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+73-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+74
+75                <data
+75-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+76                    android:host="firebase.auth"
+76-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+77                    android:path="/"
+77-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+78                    android:scheme="genericidp" />
+78-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+82            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+82-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+83            android:excludeFromRecents="true"
+83-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+84            android:exported="true"
+84-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+85            android:launchMode="singleTask"
+85-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+86-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+87            <intent-filter>
+87-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+88-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+90-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+91-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+92
+93                <data
+93-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+94                    android:host="firebase.auth"
+94-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+95                    android:path="/"
+95-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+96                    android:scheme="recaptcha" />
+96-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+97            </intent-filter>
+98        </activity>
+99
+100        <service
+100-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+101            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+101-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+102            android:enabled="true"
+102-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+105                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+105-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+105-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+107-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+108            </intent-filter>
+109        </service>
+110        <service
+110-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+111            android:name="com.google.firebase.components.ComponentDiscoveryService"
+111-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+114            <meta-data
+114-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+115                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+115-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-auth:21.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/aa5c9d71e49d94ddd96894f0d2fe3b32/firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+118                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+118-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-firestore:23.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/9462a20fd934ebb5d788c2110a920218/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+121                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+121-->[com.google.firebase:firebase-firestore:23.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/9462a20fd934ebb5d788c2110a920218/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-firestore:23.0.1] /home/deepeters/.gradle/caches/transforms-2/files-2.1/9462a20fd934ebb5d788c2110a920218/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-datatransport:18.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ae9e7e641757d026e311f1995ed12597/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+124                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+124-->[com.google.firebase:firebase-datatransport:18.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ae9e7e641757d026e311f1995ed12597/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-datatransport:18.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ae9e7e641757d026e311f1995ed12597/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+126            <meta-data
+126-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/de2c13ed196484300b446ed312f50cec/play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+127                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+127-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/de2c13ed196484300b446ed312f50cec/play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/de2c13ed196484300b446ed312f50cec/play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-installations:17.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a30eae67e308f2990f34fd0ceabcf627/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+130-->[com.google.firebase:firebase-installations:17.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a30eae67e308f2990f34fd0ceabcf627/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-installations:17.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a30eae67e308f2990f34fd0ceabcf627/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+132        </service>
+133
+134        <receiver
+134-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+139-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+140            </intent-filter>
+141        </receiver>
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+150            <intent-filter android:priority="-500" >
+150-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+150-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+151-->[com.google.firebase:firebase-messaging:22.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/7c2b1dcd645b8992ec49466f01613cfa/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+152            </intent-filter>
+153        </service>
+154        <service
+154-->[androidx.room:room-runtime:2.2.3] /home/deepeters/.gradle/caches/transforms-2/files-2.1/3124eebf4cfe3507b4d77defb5c01d02/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+155            android:name="androidx.room.MultiInstanceInvalidationService"
+155-->[androidx.room:room-runtime:2.2.3] /home/deepeters/.gradle/caches/transforms-2/files-2.1/3124eebf4cfe3507b4d77defb5c01d02/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+156            android:exported="false" />
+156-->[androidx.room:room-runtime:2.2.3] /home/deepeters/.gradle/caches/transforms-2/files-2.1/3124eebf4cfe3507b4d77defb5c01d02/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+157        <service
+157-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+158            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+158-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+159            android:exported="false" >
+159-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+160            <meta-data
+160-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+161                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+161-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+162                android:value="cct" />
+162-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/e40e321fe503541ce8e272d3ff5285f1/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+163        </service>
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+167            android:authorities="com.example.weshopapplication.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:20.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+171
+172        <activity
+172-->[com.google.android.gms:play-services-base:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+173            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+173-->[com.google.android.gms:play-services-base:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-base:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+175-->[com.google.android.gms:play-services-base:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+176
+177        <receiver
+177-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+178            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+178-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+180            android:exported="false" >
+180-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+181        </receiver>
+182
+183        <service
+183-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+184            android:name="com.google.android.gms.measurement.AppMeasurementService"
+184-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+186            android:exported="false" />
+186-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+187        <service
+187-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+188            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+188-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[com.google.android.gms:play-services-measurement:19.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/a2984f0210723d09e67626552b7d859d/play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/76084eab76eccf356e7e6b42b30265c3/play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/76084eab76eccf356e7e6b42b30265c3/play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:17.1.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/76084eab76eccf356e7e6b42b30265c3/play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+196
+197        <service
+197-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+198            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+198-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+199            android:exported="false"
+199-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+200            android:permission="android.permission.BIND_JOB_SERVICE" >
+200-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+201        </service>
+202
+203        <receiver
+203-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+204            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+204-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+205            android:exported="false" />
+205-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/deepeters/.gradle/caches/transforms-2/files-2.1/5cdcca82c4c07cfcc748932a974bd9be/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+206    </application>
+207
+208</manifest>
