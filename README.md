@@ -4,12 +4,12 @@
 ### Project Description
 A Java-Android application that consists of an e-Commerce shopping application. The main scope of this application is to allow end users to shop for products in different categories, very similar to the Amazon android application. The app utilises a paypal gateway to make payments but an alternative payment method of Visa and MasterCard.
 
-<img src="/1.png" height="400" width="230">
-<img src="/2.png" height="400" width="230">
-<img src="/3.png" height="400" width="230">
-<img src="/4.png" height="400" width="230">
-<img src="/5.png" height="400" width="230">
-<img src="/6.png" height="400" width="230">
+<img src="/1.png" height="400" width="230">      <img src="/2.png" height="400" width="230">
+
+<img src="/3.png" height="400" width="230">      <img src="/4.png" height="400" width="230">
+
+<img src="/5.png" height="400" width="230">       <img src="/6.png" height="400" width="230">
+
 <img src="/7.png" height="400" width="230">
 
 
